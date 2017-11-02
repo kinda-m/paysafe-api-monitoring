@@ -1,0 +1,17 @@
+paysafe:
+  monitoring:
+    url: https://api.test.paysafe.com/accountmanagement/monitor
+server:
+  port: 8080
+spring:
+  application:
+    name: paysafe-api-monitoring
+logging:
+  level:
+    #ROOT: DEBUG
+    org.springframework.web: ERROR
+    com.paysafe: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: debug.log

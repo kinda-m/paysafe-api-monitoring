@@ -1,0 +1,445 @@
+2017-11-02 11:47:05 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 24324 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 11:47:05 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 11:47:05 - No active profile set, falling back to default profiles: default
+2017-11-02 11:47:08 - Started PaysafeApiMonitoringApplicationTests in 2.876 seconds (JVM running for 3.813)
+2017-11-02 11:47:22 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5fdcaa40: startup date [Thu Nov 02 11:44:54 EDT 2017]; root of context hierarchy
+2017-11-02 11:47:22 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-11-02 11:47:22 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60015ef5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,paysafeApiMonitoringApplication,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,monitoringController,defaultMonitoringServiceAPI,getRestTemplate,org.springframework.boot.autoconfigure.AutoConfigurationPackages,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration,standardJacksonObjectMapperBuilderCustomizer,spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration,jacksonObjectMapperBuilder,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration,jacksonObjectMapper,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration,jsonComponentModule,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration,websocketContainerCustomizer,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat,tomcatEmbeddedServletContainerFactory,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration,embeddedServletContainerCustomizerBeanPostProcessor,errorPageRegistrarBeanPostProcessor,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration,dispatcherServlet,spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration,dispatcherServletRegistration,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration,org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration,defaultValidator,methodValidationPostProcessor,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration,error,beanNameViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration,conventionErrorViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration,errorAttributes,basicErrorController,errorPageCustomizer,preserveErrorControllerTargetClassPostProcessor,spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration,requestMappingHandlerAdapter,requestMappingHandlerMapping,mvcValidator,mvcContentNegotiationManager,mvcPathMatcher,mvcUrlPathHelper,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,mvcHandlerMappingIntrospector,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration,faviconHandlerMapping,faviconRequestHandler,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter,defaultViewResolver,viewResolver,welcomePageHandlerMapping,requestContextFilter,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration,hiddenHttpMethodFilter,httpPutFormContentFilter,org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration,mbeanExporter,objectNamingStrategy,mbeanServer,org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration,stringHttpMessageConverter,spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration,mappingJackson2HttpMessageConverter,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration,messageConverters,org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration,spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties,org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration,characterEncodingFilter,localeCharsetMappingsCustomizer,org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration,multipartConfigElement,multipartResolver,spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties,org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration,serverProperties,duplicateServerPropertiesDetector,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration,restTemplateBuilder,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration]; root of factory hierarchy
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'mbeanExporter'
+2017-11-02 11:47:22 - Unregistering JMX-exposed beans on shutdown
+2017-11-02 11:47:22 - Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping, resourceHandlerMapping]
+2017-11-02 11:47:22 - Retrieved dependent beans for bean 'mvcValidator': [requestMappingHandlerAdapter]
+2017-11-02 11:47:22 - Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'mvcValidator'
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'defaultValidator'
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'characterEncodingFilter'
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'httpPutFormContentFilter'
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'hiddenHttpMethodFilter'
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'requestContextFilter'
+2017-11-02 11:47:22 - Invoking destroy() on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2017-11-02 11:47:22 - Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]
+2017-11-02 11:47:30 - Starting PaysafeApiMonitoringApplication on VR with PID 24359 (/home/koko/dev/workspaces/jobs/paysafe-api-monitoring/target/classes started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 11:47:30 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 11:47:30 - No active profile set, falling back to default profiles: default
+2017-11-02 11:47:33 - Started PaysafeApiMonitoringApplication in 2.941 seconds (JVM running for 3.486)
+2017-11-02 11:47:40 - started monitoring host: api.test.paysafe
+2017-11-02 11:47:40 - Response from paysafe api: READY
+2017-11-02 11:47:40 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:41 - Response from paysafe api: READY
+2017-11-02 11:47:41 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:42 - Response from paysafe api: READY
+2017-11-02 11:47:42 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:43 - Response from paysafe api: READY
+2017-11-02 11:47:43 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:44 - Response from paysafe api: READY
+2017-11-02 11:47:44 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:45 - Response from paysafe api: READY
+2017-11-02 11:47:45 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:46 - Response from paysafe api: READY
+2017-11-02 11:47:46 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:47 - Response from paysafe api: READY
+2017-11-02 11:47:47 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:48 - Response from paysafe api: READY
+2017-11-02 11:47:48 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:49 - Response from paysafe api: READY
+2017-11-02 11:47:49 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:50 - Response from paysafe api: READY
+2017-11-02 11:47:50 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:51 - Response from paysafe api: READY
+2017-11-02 11:47:51 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:52 - Response from paysafe api: READY
+2017-11-02 11:47:52 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:53 - Response from paysafe api: READY
+2017-11-02 11:47:53 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:54 - Response from paysafe api: READY
+2017-11-02 11:47:54 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:55 - Response from paysafe api: READY
+2017-11-02 11:47:55 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:56 - Response from paysafe api: READY
+2017-11-02 11:47:56 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:57 - Response from paysafe api: READY
+2017-11-02 11:47:57 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:58 - Response from paysafe api: READY
+2017-11-02 11:47:58 - for api.test.paysafe:1 is UP
+2017-11-02 11:47:58 - Stopped monitoring host api.test.paysafe
+2017-11-02 11:59:55 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 24663 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 11:59:55 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 11:59:55 - No active profile set, falling back to default profiles: default
+2017-11-02 11:59:57 - Started PaysafeApiMonitoringApplicationTests in 2.311 seconds (JVM running for 3.142)
+2017-11-02 11:59:57 - started monitoring host: api.test.paysafe
+2017-11-02 12:05:37 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 24755 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:05:37 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:05:37 - No active profile set, falling back to default profiles: default
+2017-11-02 12:05:39 - Started PaysafeApiMonitoringApplicationTests in 2.666 seconds (JVM running for 3.531)
+2017-11-02 12:05:39 - started monitoring host: api.test.paysafe
+2017-11-02 12:10:55 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 24871 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:10:55 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:10:55 - No active profile set, falling back to default profiles: default
+2017-11-02 12:10:57 - Started PaysafeApiMonitoringApplicationTests in 2.216 seconds (JVM running for 3.03)
+2017-11-02 12:10:57 - started monitoring host: api.test.paysafe
+2017-11-02 12:11:07 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 24941 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:11:07 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:11:07 - No active profile set, falling back to default profiles: default
+2017-11-02 12:11:09 - Started PaysafeApiMonitoringApplicationTests in 2.178 seconds (JVM running for 2.852)
+2017-11-02 12:11:09 - started monitoring host: api.test.paysafe
+2017-11-02 12:11:26 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25008 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:11:26 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:11:26 - No active profile set, falling back to default profiles: default
+2017-11-02 12:11:27 - Started PaysafeApiMonitoringApplicationTests in 2.182 seconds (JVM running for 2.867)
+2017-11-02 12:11:28 - started monitoring host: api.test.paysafe
+2017-11-02 12:14:10 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25147 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:14:10 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:14:10 - No active profile set, falling back to default profiles: default
+2017-11-02 12:14:13 - Started PaysafeApiMonitoringApplicationTests in 2.373 seconds (JVM running for 3.072)
+2017-11-02 12:14:13 - started monitoring host: api.test.paysafe
+2017-11-02 12:14:13 - started monitoring host: api.test.paysafe
+2017-11-02 12:15:43 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25249 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:15:43 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:15:43 - No active profile set, falling back to default profiles: default
+2017-11-02 12:15:45 - Started PaysafeApiMonitoringApplicationTests in 2.267 seconds (JVM running for 2.973)
+2017-11-02 12:15:45 - started monitoring host: api.test.paysafe
+2017-11-02 12:15:45 - started monitoring host: api.test.paysafe
+2017-11-02 12:15:57 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25279 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:15:57 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:15:57 - No active profile set, falling back to default profiles: default
+2017-11-02 12:16:00 - Started PaysafeApiMonitoringApplicationTests in 2.837 seconds (JVM running for 3.783)
+2017-11-02 12:16:00 - started monitoring host: api.test.paysafe
+2017-11-02 12:20:07 - Stopped monitoring host api.test.paysafe
+2017-11-02 12:21:05 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25462 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:21:05 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:21:05 - No active profile set, falling back to default profiles: default
+2017-11-02 12:21:07 - Started PaysafeApiMonitoringApplicationTests in 2.197 seconds (JVM running for 2.894)
+2017-11-02 12:21:07 - started monitoring host: api.test.paysafe
+2017-11-02 12:21:22 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25529 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:21:22 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:21:22 - No active profile set, falling back to default profiles: default
+2017-11-02 12:21:25 - Started PaysafeApiMonitoringApplicationTests in 2.63 seconds (JVM running for 3.336)
+2017-11-02 12:21:25 - started monitoring host: api.test.paysafe
+2017-11-02 12:22:28 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25615 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:22:28 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:22:28 - No active profile set, falling back to default profiles: default
+2017-11-02 12:22:30 - Started PaysafeApiMonitoringApplicationTests in 2.142 seconds (JVM running for 2.836)
+2017-11-02 12:22:30 - started monitoring host: api.test.paysafe
+2017-11-02 12:22:40 - Stopped monitoring host api.test.paysafe
+2017-11-02 12:23:13 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25689 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:23:13 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:23:13 - No active profile set, falling back to default profiles: default
+2017-11-02 12:23:15 - Started PaysafeApiMonitoringApplicationTests in 2.456 seconds (JVM running for 3.133)
+2017-11-02 12:23:15 - started monitoring host: api.test.paysafe
+2017-11-02 12:23:25 - Stopped monitoring host api.test.paysafe
+2017-11-02 12:23:25 - started monitoring host: api.test.paysafe
+2017-11-02 12:26:33 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 25844 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:26:33 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:26:33 - No active profile set, falling back to default profiles: default
+2017-11-02 12:26:35 - Started PaysafeApiMonitoringApplicationTests in 2.253 seconds (JVM running for 2.965)
+2017-11-02 12:47:38 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26030 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:47:38 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:47:38 - No active profile set, falling back to default profiles: default
+2017-11-02 12:47:39 - Started PaysafeApiMonitoringApplicationTests in 2.117 seconds (JVM running for 2.795)
+2017-11-02 12:47:39 - started monitoring host: api.test.paysafe
+2017-11-02 12:47:50 - Stopped monitoring host api.test.paysafe
+2017-11-02 12:47:50 - started monitoring host: api.test.paysafe
+2017-11-02 12:58:54 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26432 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:58:54 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:58:54 - No active profile set, falling back to default profiles: default
+2017-11-02 12:58:55 - Started PaysafeApiMonitoringApplicationTests in 2.049 seconds (JVM running for 2.716)
+2017-11-02 12:58:55 - started monitoring host: api.test.paysafe
+2017-11-02 12:59:05 - Stopped monitoring host api.test.paysafe
+2017-11-02 12:59:05 - started monitoring host: api.test.paysafe
+2017-11-02 12:59:05 - started monitoring host: api.test.paysafe
+2017-11-02 12:59:16 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26466 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 12:59:16 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 12:59:16 - No active profile set, falling back to default profiles: default
+2017-11-02 12:59:18 - Started PaysafeApiMonitoringApplicationTests in 2.542 seconds (JVM running for 3.333)
+2017-11-02 12:59:18 - started monitoring host: api.test.paysafe
+2017-11-02 12:59:28 - Stopped monitoring host api.test.paysafe
+2017-11-02 12:59:28 - started monitoring host: api.test.paysafe
+2017-11-02 12:59:28 - started monitoring host: api.test.paysafe
+2017-11-02 13:00:24 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26512 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:00:24 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:00:24 - No active profile set, falling back to default profiles: default
+2017-11-02 13:00:26 - Started PaysafeApiMonitoringApplicationTests in 2.366 seconds (JVM running for 3.002)
+2017-11-02 13:00:26 - started monitoring host: api.test.paysafe
+2017-11-02 13:00:36 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:00:36 - started monitoring host: api.test.paysafe
+2017-11-02 13:00:36 - started monitoring host: api.test.paysafe
+2017-11-02 13:01:01 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26583 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:01:01 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:01:01 - No active profile set, falling back to default profiles: default
+2017-11-02 13:01:03 - Started PaysafeApiMonitoringApplicationTests in 2.251 seconds (JVM running for 2.909)
+2017-11-02 13:01:04 - started monitoring host: api.test.paysafe
+2017-11-02 13:01:14 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:01:14 - started monitoring host: api.test.paysafe
+2017-11-02 13:01:14 - started monitoring host: api.test.paysafe
+2017-11-02 13:02:03 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26660 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:02:03 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:02:03 - No active profile set, falling back to default profiles: default
+2017-11-02 13:02:05 - Started PaysafeApiMonitoringApplicationTests in 2.01 seconds (JVM running for 2.643)
+2017-11-02 13:02:05 - started monitoring host: api.test.paysafe
+2017-11-02 13:02:15 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:02:15 - started monitoring host: api.test.paysafe
+2017-11-02 13:02:15 - started monitoring host: api.test.paysafe
+2017-11-02 13:02:30 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26736 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:02:30 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:02:30 - No active profile set, falling back to default profiles: default
+2017-11-02 13:02:32 - Started PaysafeApiMonitoringApplicationTests in 2.325 seconds (JVM running for 2.977)
+2017-11-02 13:02:33 - started monitoring host: api.test.paysafe
+2017-11-02 13:02:43 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:02:43 - started monitoring host: api.test.paysafe
+2017-11-02 13:02:44 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26776 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:02:44 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:02:44 - No active profile set, falling back to default profiles: default
+2017-11-02 13:02:46 - Started PaysafeApiMonitoringApplicationTests in 2.147 seconds (JVM running for 3.061)
+2017-11-02 13:02:46 - started monitoring host: api.test.paysafe
+2017-11-02 13:02:56 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:02:56 - started monitoring host: api.test.paysafe
+2017-11-02 13:03:54 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26860 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:03:54 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:03:54 - No active profile set, falling back to default profiles: default
+2017-11-02 13:03:56 - Started PaysafeApiMonitoringApplicationTests in 2.384 seconds (JVM running for 3.126)
+2017-11-02 13:03:56 - started monitoring host: api.test.paysafe
+2017-11-02 13:04:07 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:04:07 - started monitoring host: api.test.paysafe
+2017-11-02 13:04:09 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26892 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:04:09 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:04:09 - No active profile set, falling back to default profiles: default
+2017-11-02 13:04:11 - Started PaysafeApiMonitoringApplicationTests in 2.518 seconds (JVM running for 3.345)
+2017-11-02 13:04:11 - started monitoring host: api.test.paysafe
+2017-11-02 13:04:22 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:04:22 - started monitoring host: api.test.paysafe
+2017-11-02 13:04:58 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26946 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:04:58 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:04:58 - No active profile set, falling back to default profiles: default
+2017-11-02 13:05:00 - Started PaysafeApiMonitoringApplicationTests in 2.029 seconds (JVM running for 2.688)
+2017-11-02 13:05:00 - started monitoring host: api.test.paysafe
+2017-11-02 13:05:21 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 26983 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:05:21 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:05:21 - No active profile set, falling back to default profiles: default
+2017-11-02 13:05:23 - Started PaysafeApiMonitoringApplicationTests in 2.452 seconds (JVM running for 3.124)
+2017-11-02 13:05:23 - started monitoring host: api.test.paysafe
+2017-11-02 13:05:33 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:05:33 - started monitoring host: api.test.paysafe
+2017-11-02 13:06:51 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27040 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:06:51 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:06:51 - No active profile set, falling back to default profiles: default
+2017-11-02 13:06:53 - Started PaysafeApiMonitoringApplicationTests in 2.598 seconds (JVM running for 3.37)
+2017-11-02 13:06:53 - started monitoring host: api.test.paysafe
+2017-11-02 13:07:03 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:07:03 - started monitoring host: api.test.paysafe
+2017-11-02 13:07:20 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27114 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:07:20 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:07:20 - No active profile set, falling back to default profiles: default
+2017-11-02 13:07:23 - Started PaysafeApiMonitoringApplicationTests in 2.313 seconds (JVM running for 2.991)
+2017-11-02 13:07:23 - started monitoring host: api.test.paysafe
+2017-11-02 13:07:33 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:07:33 - started monitoring host: api.test.paysafe10
+2017-11-02 13:08:37 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27157 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:08:37 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:08:37 - No active profile set, falling back to default profiles: default
+2017-11-02 13:08:39 - Started PaysafeApiMonitoringApplicationTests in 2.635 seconds (JVM running for 3.43)
+2017-11-02 13:08:39 - started monitoring host: api.test.paysafe
+2017-11-02 13:08:49 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:08:49 - started monitoring host: api.test.paysafe10
+2017-11-02 13:11:06 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27215 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:11:06 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:11:06 - No active profile set, falling back to default profiles: default
+2017-11-02 13:11:08 - Started PaysafeApiMonitoringApplicationTests in 2.415 seconds (JVM running for 3.182)
+2017-11-02 13:11:08 - started monitoring host: api.test.paysafe
+2017-11-02 13:11:17 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27280 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:11:17 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:11:17 - No active profile set, falling back to default profiles: default
+2017-11-02 13:11:18 - Stopped monitoring host api.test.paysafe
+2017-11-02 13:11:18 - started monitoring host: api.test.paysafe10
+2017-11-02 13:11:19 - Started PaysafeApiMonitoringApplicationTests in 2.192 seconds (JVM running for 2.814)
+2017-11-02 13:11:19 - started monitoring host: api.test.paysafe9
+2017-11-02 13:11:29 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:11:29 - started monitoring host: api.test.paysafe
+2017-11-02 13:11:29 - started monitoring host: api.test.paysafe10
+2017-11-02 13:11:50 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27317 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:11:50 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:11:50 - No active profile set, falling back to default profiles: default
+2017-11-02 13:11:52 - Started PaysafeApiMonitoringApplicationTests in 2.556 seconds (JVM running for 3.277)
+2017-11-02 13:11:52 - started monitoring host: api.test.paysafe9
+2017-11-02 13:12:02 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:12:02 - started monitoring host: api.test.paysafe
+2017-11-02 13:12:02 - started monitoring host: api.test.paysafe10
+2017-11-02 13:14:54 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27488 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:14:54 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:14:54 - No active profile set, falling back to default profiles: default
+2017-11-02 13:14:56 - Started PaysafeApiMonitoringApplicationTests in 2.193 seconds (JVM running for 2.927)
+2017-11-02 13:14:56 - started monitoring host: api.test.paysafe9
+2017-11-02 13:15:06 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:15:06 - started monitoring host: api.test.paysafe
+2017-11-02 13:15:06 - started monitoring host: api.test.paysafe10
+2017-11-02 13:15:48 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27627 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:15:48 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:15:48 - No active profile set, falling back to default profiles: default
+2017-11-02 13:15:51 - Started PaysafeApiMonitoringApplicationTests in 2.981 seconds (JVM running for 3.886)
+2017-11-02 13:15:51 - started monitoring host: api.test.paysafe9
+2017-11-02 13:16:08 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:16:09 - started monitoring host: api.test.paysafe
+2017-11-02 13:16:10 - started monitoring host: api.test.paysafe10
+2017-11-02 13:17:06 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27773 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:17:06 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:17:06 - No active profile set, falling back to default profiles: default
+2017-11-02 13:17:08 - Started PaysafeApiMonitoringApplicationTests in 2.249 seconds (JVM running for 3.045)
+2017-11-02 13:17:08 - started monitoring host: api.test.paysafe9
+2017-11-02 13:17:18 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:17:18 - started monitoring host: api.test.paysafe0
+2017-11-02 13:17:18 - started monitoring host: api.test.paysafe10
+2017-11-02 13:18:18 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27864 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:18:18 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:18:18 - No active profile set, falling back to default profiles: default
+2017-11-02 13:18:20 - Started PaysafeApiMonitoringApplicationTests in 2.536 seconds (JVM running for 3.237)
+2017-11-02 13:18:20 - started monitoring host: api.test.paysafe9
+2017-11-02 13:18:30 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:18:30 - started monitoring host: api.test.paysafe0
+2017-11-02 13:18:56 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 27913 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:18:56 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:18:56 - No active profile set, falling back to default profiles: default
+2017-11-02 13:18:58 - Started PaysafeApiMonitoringApplicationTests in 2.825 seconds (JVM running for 3.61)
+2017-11-02 13:18:58 - started monitoring host: api.test.paysafe0
+2017-11-02 13:19:23 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28012 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:19:23 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:19:23 - No active profile set, falling back to default profiles: default
+2017-11-02 13:19:25 - Started PaysafeApiMonitoringApplicationTests in 2.406 seconds (JVM running for 3.213)
+2017-11-02 13:19:25 - started monitoring host: api.test.paysafe9
+2017-11-02 13:19:25 - started monitoring host: api.test.paysafe0
+2017-11-02 13:19:52 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28093 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:19:52 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:19:52 - No active profile set, falling back to default profiles: default
+2017-11-02 13:19:54 - Started PaysafeApiMonitoringApplicationTests in 2.416 seconds (JVM running for 3.037)
+2017-11-02 13:19:54 - started monitoring host: api.test.paysafe9
+2017-11-02 13:19:55 - started monitoring host: api.test.paysafe0
+2017-11-02 13:21:31 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28186 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:21:31 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:21:31 - No active profile set, falling back to default profiles: default
+2017-11-02 13:21:33 - Started PaysafeApiMonitoringApplicationTests in 2.28 seconds (JVM running for 2.982)
+2017-11-02 13:21:33 - started monitoring host: api.test.paysafe9
+2017-11-02 13:21:34 - started monitoring host: api.test.paysafe0
+2017-11-02 13:22:01 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28236 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:22:01 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:22:01 - No active profile set, falling back to default profiles: default
+2017-11-02 13:22:03 - Started PaysafeApiMonitoringApplicationTests in 2.687 seconds (JVM running for 3.481)
+2017-11-02 13:22:30 - started monitoring host: api.test.paysafe0
+2017-11-02 13:23:52 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28340 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:23:52 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:23:52 - No active profile set, falling back to default profiles: default
+2017-11-02 13:23:54 - Started PaysafeApiMonitoringApplicationTests in 2.007 seconds (JVM running for 2.673)
+2017-11-02 13:23:54 - started monitoring host: api.test.paysafe9
+2017-11-02 13:23:54 - started monitoring host: api.test.paysafe0
+2017-11-02 13:24:32 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28424 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:24:32 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:24:32 - No active profile set, falling back to default profiles: default
+2017-11-02 13:24:33 - Started PaysafeApiMonitoringApplicationTests in 2.161 seconds (JVM running for 2.747)
+2017-11-02 13:24:33 - started monitoring host: api.test.paysafe9
+2017-11-02 13:24:34 - started monitoring host: api.test.paysafe0
+2017-11-02 13:24:53 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28453 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:24:53 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:24:53 - No active profile set, falling back to default profiles: default
+2017-11-02 13:24:55 - Started PaysafeApiMonitoringApplicationTests in 2.45 seconds (JVM running for 3.202)
+2017-11-02 13:24:55 - started monitoring host: api.test.paysafe9
+2017-11-02 13:24:56 - started monitoring host: api.test.paysafe0
+2017-11-02 13:25:35 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28528 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:25:35 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:25:35 - No active profile set, falling back to default profiles: default
+2017-11-02 13:25:37 - Started PaysafeApiMonitoringApplicationTests in 2.121 seconds (JVM running for 2.767)
+2017-11-02 13:25:37 - started monitoring host: api.test.paysafe9
+2017-11-02 13:25:37 - started monitoring host: api.test.paysafe0
+2017-11-02 13:27:19 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28624 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:27:19 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:27:19 - No active profile set, falling back to default profiles: default
+2017-11-02 13:27:21 - Started PaysafeApiMonitoringApplicationTests in 2.129 seconds (JVM running for 2.746)
+2017-11-02 13:27:21 - started monitoring host: api.test.paysafe9
+2017-11-02 13:27:21 - started monitoring host: api.test.paysafe0
+2017-11-02 13:28:17 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28719 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:28:17 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:28:17 - No active profile set, falling back to default profiles: default
+2017-11-02 13:28:19 - Started PaysafeApiMonitoringApplicationTests in 2.268 seconds (JVM running for 3.018)
+2017-11-02 13:28:19 - started monitoring host: api.test.paysafe9
+2017-11-02 13:28:20 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:28:20 - started monitoring host: api.test.paysafe0
+2017-11-02 13:29:07 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28817 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:29:07 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:29:07 - No active profile set, falling back to default profiles: default
+2017-11-02 13:29:09 - Started PaysafeApiMonitoringApplicationTests in 2.546 seconds (JVM running for 3.186)
+2017-11-02 13:29:10 - started monitoring host: api.test.paysafe9
+2017-11-02 13:29:20 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:29:20 - started monitoring host: api.test.paysafe0
+2017-11-02 13:30:08 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 28909 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:30:09 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:30:09 - No active profile set, falling back to default profiles: default
+2017-11-02 13:30:11 - Started PaysafeApiMonitoringApplicationTests in 2.647 seconds (JVM running for 3.301)
+2017-11-02 13:30:11 - started monitoring host: api.test.paysafe0
+2017-11-02 13:30:39 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29001 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:30:39 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:30:39 - No active profile set, falling back to default profiles: default
+2017-11-02 13:30:41 - Started PaysafeApiMonitoringApplicationTests in 2.36 seconds (JVM running for 3.0)
+2017-11-02 13:30:41 - started monitoring host: api.test.paysafe9
+2017-11-02 13:30:52 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:31:12 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29078 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:31:12 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:31:12 - No active profile set, falling back to default profiles: default
+2017-11-02 13:31:14 - Started PaysafeApiMonitoringApplicationTests in 2.166 seconds (JVM running for 2.915)
+2017-11-02 13:31:14 - started monitoring host: api.test.paysafe9
+2017-11-02 13:31:25 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:31:25 - started monitoring host: api.test.paysafe10
+2017-11-02 13:32:33 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29185 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:32:33 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:32:33 - No active profile set, falling back to default profiles: default
+2017-11-02 13:32:35 - Started PaysafeApiMonitoringApplicationTests in 1.947 seconds (JVM running for 2.629)
+2017-11-02 13:32:35 - started monitoring host: api.test.paysafe9
+2017-11-02 13:32:45 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:32:45 - started monitoring host: api.test.paysafe10
+2017-11-02 13:34:12 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29294 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:34:12 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:34:12 - No active profile set, falling back to default profiles: default
+2017-11-02 13:34:13 - Started PaysafeApiMonitoringApplicationTests in 1.951 seconds (JVM running for 2.594)
+2017-11-02 13:34:13 - started monitoring host: api.test.paysafe9
+2017-11-02 13:34:23 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:34:23 - started monitoring host: api.test.paysafe10
+2017-11-02 13:35:10 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29384 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:35:10 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:35:10 - No active profile set, falling back to default profiles: default
+2017-11-02 13:35:12 - Started PaysafeApiMonitoringApplicationTests in 2.189 seconds (JVM running for 2.882)
+2017-11-02 13:35:12 - started monitoring host: api.test.paysafe9
+2017-11-02 13:35:22 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:35:22 - started monitoring host: api.test.paysafe10
+2017-11-02 13:37:00 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29497 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:37:00 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:37:00 - No active profile set, falling back to default profiles: default
+2017-11-02 13:37:02 - Started PaysafeApiMonitoringApplicationTests in 2.473 seconds (JVM running for 3.193)
+2017-11-02 13:37:02 - started monitoring host: api.test.paysafe9
+2017-11-02 13:37:12 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:37:12 - started monitoring host: api.test.paysafe10
+2017-11-02 13:38:00 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29596 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:38:00 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:38:00 - No active profile set, falling back to default profiles: default
+2017-11-02 13:38:02 - Started PaysafeApiMonitoringApplicationTests in 2.394 seconds (JVM running for 3.104)
+2017-11-02 13:38:02 - started monitoring host: api.test.paysafe9
+2017-11-02 13:38:12 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:38:26 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29678 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:38:26 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:38:26 - No active profile set, falling back to default profiles: default
+2017-11-02 13:38:28 - Started PaysafeApiMonitoringApplicationTests in 1.997 seconds (JVM running for 2.641)
+2017-11-02 13:38:28 - started monitoring host: api.test.paysafe9
+2017-11-02 13:38:38 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:38:38 - started monitoring host: api.test.paysafe0
+2017-11-02 13:40:18 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29860 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:40:18 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:40:18 - No active profile set, falling back to default profiles: default
+2017-11-02 13:40:20 - Started PaysafeApiMonitoringApplicationTests in 2.037 seconds (JVM running for 2.668)
+2017-11-02 13:40:20 - started monitoring host: api.test.paysafe9
+2017-11-02 13:40:30 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:41:15 - Starting PaysafeApiMonitoringApplicationTests on VR with PID 29975 (started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:41:15 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:41:15 - No active profile set, falling back to default profiles: default
+2017-11-02 13:41:17 - Started PaysafeApiMonitoringApplicationTests in 2.123 seconds (JVM running for 2.818)
+2017-11-02 13:41:17 - started monitoring host: api.test.paysafe9
+2017-11-02 13:41:27 - Stopped monitoring host api.test.paysafe9
+2017-11-02 13:47:47 - Starting PaysafeApiMonitoringApplication on VR with PID 30067 (/home/koko/dev/workspaces/jobs/paysafe-api-monitoring/target/classes started by koko in /home/koko/dev/workspaces/jobs/paysafe-api-monitoring)
+2017-11-02 13:47:47 - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-11-02 13:47:47 - No active profile set, falling back to default profiles: default
+2017-11-02 13:47:50 - Started PaysafeApiMonitoringApplication in 2.96 seconds (JVM running for 3.414)
+2017-11-02 13:47:55 - started monitoring host: api.test.paysafe
+2017-11-02 13:48:09 - Stopped monitoring host api.test.paysafe
